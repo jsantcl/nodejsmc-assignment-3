@@ -8,6 +8,15 @@
 # 1.- Web Client Documentation
 # ----------------------------
 
+First! create the folder structure for data storage:
+In the same folder as index.js create the following folders
+.data/
+Then inside .data/
+users/
+tokens/
+orders/
+carts/
+
 To launch the application use the command line:
 
 PAY_API_KEY=<stripe api key> MAIL_API_KEY=<mailgun api key> node index.js
